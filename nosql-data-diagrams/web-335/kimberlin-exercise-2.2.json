@@ -1,0 +1,60 @@
+{
+    "customer":
+    {
+        "_id": 1,
+        "first_name": "August",
+        "last_name": "Rhoades",
+        "date_of_birth": "June 23, 1991",
+        "user_name": "Scout",
+        
+        "invoice":
+        [
+            {
+                "_id": 687749,
+                "date_created": "10/20/2020",
+                "date_shipped": "10/25/2020",
+                "item":
+                [
+                    {
+                        "_id": "CP493-01",
+                        "name": "Bob Ross Chia Pet",
+                        "price": 17,
+                        "quantity": 1
+                    },
+                    {
+                        "_id": "789564-0010",
+                        "name": "Bose Quiet Comfort",
+                        "price": 300,
+                        "quantity": 1
+                    },
+                    {
+                        "_id": "C78MP8",
+                        "name": "Echo Dot",
+                        "price": 30,
+                        "quantity": 2
+                    }
+                ],
+                "subtotal": 377.00,
+                "tax": 76.20,
+                "total": 455.16
+            },
+            {
+                "_id": 726904,
+                "date_created": "01/14/2020",
+                "date_shipped": "01/25/2020",
+                "item":
+                [
+                    {
+                        "_id": "MW-CCS-001",
+                        "name": "Switch Carrying Case",
+                        "price": 16,
+                        "quantity": 1
+                    }
+                ],
+                "subtotal": 16,
+                "tax": 1.45,
+                "total": 17.45
+            }
+        ]
+    }
+}
